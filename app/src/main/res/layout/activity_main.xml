@@ -1,0 +1,10 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/fragment_main"
+android:name="szenmedcal1.medcal1.szen95.szenmedcal1.MainFragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginLeft="16dp"
+android:layout_marginRight="16dp"
+tools:context="szenmedcal1.medcal1.szen95.szenmedcal1.MainFragment"
+tools:layout="@android:layout/list_content" />

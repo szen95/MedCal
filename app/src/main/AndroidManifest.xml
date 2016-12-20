@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.szen95.szenmedcal1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.BMI"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_bmi"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.AlcoholUnits"
+            android:label="@string/title_activity_alcohol_units"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.AnionGap"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_anion_gap"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.BMRMale"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_bmrmale"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.BMRFemale"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_bmrfemale"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.CreatinineClearance"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_creatinine_clearance"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.ABPI"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_abpi"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.CHA2DS2VASc"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_cha2_ds2_vasc"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.SepsisCriteria"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_sepsis_criteria"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.WellsScore"
+            android:label="@string/title_activity_wells_score"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+        <activity
+            android:name="szenmedcal1.medcal1.szen95.szenmedcal1.CURB65"
+            android:label="@string/title_activity_curb65"
+            android:parentActivityName="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="szenmedcal1.medcal1.szen95.szenmedcal1.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
